@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página de contacto">
+        <meta autor="Guevara Bustos Yandri David">
+        <title>U1S2Tarea</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center;">Contacto</h1><br><br>
+            <div style="text-align: center; float:center;">
+            <nav>
+                    <a href="index.html" style="text-decoration: none;">Inicio   |</a>
+                    <a href="#acerca_de_mi" style="text-decoration: none;">Acerca de mi   |</a>
+                    <a href="#" style="text-decoration: none;">Contacto</a><br><br>
+            </nav>
+        </div>
+        </header>
+        <main>
+            <p  style="background-color: antiquewhite; text-align: center;" >Por favor, completa el siguiente formulario:</p>
+            <div style="background-color: antiquewhite; text-align: center; padding: 10px; border-radius: 20px; margin: 500px; margin-top: 50px;">
+            
+            <form action="" method="get">
+                <label for ="nombre" id="nombre">Nombres :</label><br>
+                <input type="text" name="nombre" id="nombre" required style="background-color: beige; border-radius: 5px; "><br>
+                <label for="apellido" id="apellido">Apellidos :</label><br>
+                <input type="text" name="apellido" id="apellido" required style="background-color: beige; border-radius: 5px;"><br>
+                <label for ="correo" id="correo" required>Correo:</label><br>
+                <input for="email"  name="correo"id="correo" required  style="background-color: beige; border-radius: 5px; "><br><br>
+                <label for="password" id="password">Contraseña:</label><br>
+                <input type="password" name="password" id="password" required style="background-color: beige; border-radius: 5px; "><br><br>
+                <label for="fecha" id="fecha">Fecha de Nacimiento:</label><br>
+                <input type="date" name="fecha" id="fecha" required style="background-color: beige; border-radius: 5px; "><br><br>
+                <label for="cars">Que edad tiene:</label>
+                <select id="edad" name="edad" size="4">
+                  <option value="15-20">15 - 20</option>
+                  <option value="21-40">21 - 40</option>
+                  <option value="41-60">41 - 60</option>
+                  <option value="61">más de 60 años</option>
+                </select><br><br>
+                <h3>Que color prefieres :</h3>
+                <label for="rojo">Rojo</label><br>
+                <input type="radio" id="rojo" name="color" value="rojo"><br>
+                <label for="azul">Azul</label><br>
+                <input type="radio" id="azul" name="color" value="azul"><br>
+                <label for="negro">Negro</label><br>
+                <input type="radio" id="negro" name="color" value="negro"><br><br>
+                <label for="mensaje ">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" required style="background-color: beige; border-radius: 5px; "></textarea><br><br>
+                <input type="submit" value="Enviar" id="enviar" style="background-color: beige; border-radius: 5px; "><br><br>
+                <input type="button" onclick="alert('Bienvenido Usuario | Contacto')" value="Presentación" style="background-color: beige; border-radius: 5px; "><br><br>
+            </form>        
+        </div>
+    </main>
+    </body>
+    <footer style="background-color: darkgray;">
+        <p style="text-align: center; color: aliceblue;" id="acerca_de_mi">Guevara Bustos Yandri David</p>
+    </footer>
+</html>
